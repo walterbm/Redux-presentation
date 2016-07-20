@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./examples/entry.js",
+    entry: "./examples/redux-todo/main.js",
     output: {
         path: __dirname,
         filename: "index.js"
