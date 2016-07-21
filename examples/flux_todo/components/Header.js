@@ -30,7 +30,7 @@ class Header extends React.Component {
    */
   render() {
     return (
-      <header id="header">
+      <header id="header-flux">
         <h1>Flux Todos</h1>
         <TodoTextInput
           id="new-todo"
