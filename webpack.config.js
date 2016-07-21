@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: './examples/mortar_playground/main.js',
+    entry: './examples/flux-todo/main.js',
     output: {
         path: path.join(__dirname, '/build'),
         filename: 'index.js'
