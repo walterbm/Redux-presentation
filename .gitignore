@@ -2,3 +2,5 @@ node_modules
 redux-presentation.key
 
 build/
+
+app.css
