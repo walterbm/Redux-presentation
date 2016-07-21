@@ -23,6 +23,7 @@ export const FilterLink = connect( mapStateToLinkProps, mapDispatchToLinkProps )
 //
 // class FilterLink extends React.Component {
 //   componentDidMount() {
+//     const { store } = this.context
 //     this.unsubscribe = store.subscribe(() =>
 //       this.forceUpdate()
 //     );

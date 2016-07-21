@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 
 import { AppReducer } from './rootReducer'
 
-export const store = createStore(AppReducer);
+export const store = createStore(AppReducer, window.devToolsExtension && window.devToolsExtension());
 
 // ~~~ home-made `createStore` ~~~
 //
