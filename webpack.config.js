@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-    entry: './examples/flux-todo/main.js',
+    entry: './examples/redux_todo/main.js',
     output: {
-        path: path.join(__dirname, '/build'),
-        filename: 'index.js'
+        path: __dirname,
+        filename: 'redux_todo.js'
     },
     module: {
         loaders: [

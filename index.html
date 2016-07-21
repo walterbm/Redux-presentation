@@ -3,11 +3,42 @@
   <head>
     <meta charset="utf-8">
     <title>Redux Examples</title>
-    <link rel="stylesheet" href="./app.css" charset="utf-8">
+    <style>
+      body {
+        background: url('./assets/galaxy.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+      }
+      img {
+        display: block;
+        width: 20vw;
+      }
+      .parent {
+        height: 100vh;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+      }
+      .child {
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
     <body>
-      <div id="root"></div>
-      <script src="build/index.js"></script>
+      <div class="parent">
+        <div class="child">
+          <a href="flux_todo.html"><img src="./assets/flux_logo.png"/></a>
+        </div>
+        <div class="child">
+          <img src="./assets/vs.png"/>
+        </div>
+        <div class="child">
+          <a href="redux_todo.html"><img src="./assets/redux_logo.png"/></a>
+        </div>
+      </div>
     </body>
 </html>
